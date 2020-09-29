@@ -1,0 +1,4 @@
+node_modules/
+public/bundle.js
+public/scripts/compiled-app.js
+yarn-error.log

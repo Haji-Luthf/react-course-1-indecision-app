@@ -1,0 +1,16 @@
+html {
+    font-size: 62.5%; // This will make 1.6rem as 16px for better readability
+}
+body {
+    font-family: Helvetica;
+    font-size: $m-size;
+    background: $dark-blue;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
