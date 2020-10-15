@@ -3,7 +3,7 @@ const sum = function(a,b) {
     console.log(arguments); // prints 7,8,6
     return a+b;
 }
-console.log(sum(7,8,6)); // prints 15
+console.log(sum(7,8,6)); // prints 15 by ignoring the third argument which is notdefined in the function
 
 // arguments object in arrow function
 const sumArrow = (a,b) => {

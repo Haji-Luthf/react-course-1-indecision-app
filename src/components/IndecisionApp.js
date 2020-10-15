@@ -28,7 +28,11 @@ export default class IndecisionApp extends React.Component {
         }
         this.setState((prevState) => ({ optionsArray: prevState.optionsArray.concat(enteredValue) }));
     };
-
+    
+// Math.random() will generate a random number between 0 and 1. 
+// We want a random number between 0th element and the last element of the array so we will multiply it with length of the array. 
+// The number generated is in decimal between 0 and last element n+1 so we will use Math.floor for a whole random number.
+// It will not round off but just take the whole number. 
     handlePick = () => {
         const randomNum = Math.floor(Math.random() * (this.state.optionsArray.length));
         const randomOption = this.state.optionsArray[randomNum];

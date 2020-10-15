@@ -1,6 +1,6 @@
 // import './utils.js';
 
-import subtract, {square, add} from './utils.js';
+import subtract, { square, add } from './utils.js';
 import drinkPermit from './person.js';
 import validator from 'validator';
 

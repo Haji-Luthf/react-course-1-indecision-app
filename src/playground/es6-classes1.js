@@ -41,7 +41,6 @@ class Traveler extends Person {
 
     getGreeting(){
         return super.getGreeting() + (!!this.location ? ` I am visiting ${this.location}` : '');
-        // && doesnt work for concatenation
      }
 }
 const me = new Traveler('Hajira Raheem', 31, 'Kaaba');
